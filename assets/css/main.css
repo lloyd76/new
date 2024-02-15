@@ -2404,3 +2404,38 @@ nav ul li a {
 .dropdown-content .submenu li:hover {
     background-color: rgba(255, 255, 255, 0.1);
 }
+
+/* Media queries for headers */
+
+/* For screens smaller than 768px (e.g., smartphones) */
+@media screen and (max-width: 767px) {
+    .header1 {
+        font-size: 20px; /* Adjust font size for smaller screens */
+    }
+    
+    .header2 {
+        font-size: 18px; /* Adjust font size for smaller screens */
+    }
+}
+
+/* For screens between 768px and 1023px (e.g., tablets) */
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    .header1 {
+        font-size: 24px; /* Adjust font size for medium-sized screens */
+    }
+    
+    .header2 {
+        font-size: 20px; /* Adjust font size for medium-sized screens */
+    }
+}
+
+/* For screens larger than 1023px (e.g., desktops) */
+@media screen and (min-width: 1024px) {
+    .header1 {
+        font-size: 28px; /* Adjust font size for larger screens */
+    }
+    
+    .header2 {
+        font-size: 24px; /* Adjust font size for larger screens */
+    }
+}
