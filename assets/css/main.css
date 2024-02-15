@@ -2485,7 +2485,7 @@ nav ul li a {
 
 /* Copyright text */
 .copy-right {
-    text-align: center;
+    text-align: right;
     color: #fff; /* White text */
     margin-top: 20px;
 }
