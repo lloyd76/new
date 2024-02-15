@@ -103,58 +103,101 @@ body {
     }
 }
 
-/* Header 1 */
-#header1 {
-    background: linear-gradient(to right, rgba(255, 215, 0, 0.9), rgba(255, 215, 0, 0.7));
-    height: 0.25in;
+/* Basic styling for header 1 */
+.header1 {
+    background: linear-gradient(to right, rgba(255, 215, 0, 0.9), rgba(255, 215, 0, 0.7)); /* Shiny gold gradient */
+    height: 0.25in; /* Set header height to 0.25 inches */
     color: #fff;
-    font-family: Arial, sans-serif;
-    position: fixed;
-    top: 0;
-    width: 100%;
-    z-index: 1000;
+    font-family: Arial, sans-serif; /* Use a sans-serif font */
 }
 
-/* Header 2 */
-#header2 {
-    background-color: #333;
-    height: 0.8in;
-    position: fixed;
-    top: 0.25in;
-    width: 100%;
-    color: #fff;
-    font-family: Arial, sans-serif;
-    z-index: 1000;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 0 20px;
+/* Basic styling for header 2 */
+.header2 {
+    background-color: #333; /* Darker black color */
+    height: 0.8in; /* Set header height to 0.8 inches */
+    position: relative; /* Ensure positioning context for child elements */
+    color: #fff; /* Set text color to white */
 }
 
-/* Logo Styles */
+/* Centered church name */
+.church-name {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: calc(40px + 110px); /* Adjust as needed to position it next to the logo */
+}
+
+/* Church name styling */
+.church-name h1 {
+    font-weight: bold;
+    font-family: Arial, sans-serif; /* Use a different font family */
+}
+
+/* Adjusted position for navigation */
+nav {
+    position: absolute;
+    bottom: 20px;
+    right: 120px; /* Adjust as needed */
+}
+
+/* Adjusted position for logo */
 .logo {
-    width: 50px;
-    height: auto;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 40px; /* Adjust as needed */
 }
 
-/* Navigation Styles */
-.navigation {
-    display: flex;
+/* Adjusted size for the logo */
+.logo img {
+    max-width: 100px; /* Set the maximum width of the logo */
+    height: 50%; /* Set the maximum height of the logo */
+    height: auto; /* Allow the height to adjust automatically */
+}
+
+/* Additional styles for navigation links */
+nav ul {
     list-style: none;
     margin: 0;
     padding: 0;
 }
 
-.navigation li {
-    margin-right: 20px;
+nav ul li {
+    display: inline;
+    margin-right: 20px; /* Add spacing between navigation items */
 }
 
-.navigation li:last-child {
-    margin-right: 0;
-}
-
-.navigation a {
+nav ul li a {
+    text-decoration: none; /* Remove default underline */
     color: #fff;
-    text-decoration: none;
-    font-size: 16px;
+}
+
+.dropdown {
+    position: relative; /* Ensure positioning context for dropdown */
+}
+
+.dropdown-content {
+    position: absolute;
+    top: 100%; /* Position dropdown below the link */
+    left: 0;
+    display: none;
+    background-color: #333;
+    padding: 10px;
+    border-radius: 10px;
+    z-index: 1;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown-content .submenu li {
+    color: #fff;
+    cursor: pointer;
+    padding: 8px 15px;
+    white-space: nowrap;
+}
+
+.dropdown-content .submenu li:hover {
+    background-color: rgba(255, 255, 255, 0.1);
 }
