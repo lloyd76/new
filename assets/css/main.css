@@ -2469,6 +2469,7 @@ nav ul li a {
 .footer-section3 img {
     width: 100px; /* Adjust size as needed */
     height: auto;
+    margin-right: 20px; /* Add margin to separate the logo and text */
 }
 
 .footer-section3 h1 {
