@@ -194,7 +194,7 @@ nav ul li a {
 .dropdown-content .submenu li {
     color: #fff;
     cursor: pointer;
-    padding: 8px 15px;
+    padding: 2px 8px;
     white-space: nowrap;
 }
 
