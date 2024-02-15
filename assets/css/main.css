@@ -2306,7 +2306,7 @@ body {
 		}
 
 
-/* Basic styling for header 1 */
+/* Default header styles */
 .header1 {
     background: linear-gradient(to right, rgba(255, 215, 0, 0.9), rgba(255, 215, 0, 0.7)); /* Shiny gold gradient */
     height: 0.25in; /* Set header height to 0.25 inches */
@@ -2314,7 +2314,6 @@ body {
     font-family: Arial, sans-serif; /* Use a sans-serif font */
 }
 
-/* Basic styling for header 2 */
 .header2 {
     background-color: #333; /* Darker black color */
     height: 0.8in; /* Set header height to 0.8 inches */
