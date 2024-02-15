@@ -2443,7 +2443,7 @@ nav ul li a {
 /* First section of the footer - Gold color */
 .footer-section1 {
     background-color: rgba(255, 215, 0, 0.9); /* Shiny gold */
-    height: 0.3in;
+    height: 0.09in;
     color: #fff; /* White text */
     padding: 20px;
 }
@@ -2451,7 +2451,7 @@ nav ul li a {
 /* Second section of the footer - Darker black color */
 .footer-section2 {
     background-color: #333; /* Darker black */
-    height: 2.8in; /* Adjust height as needed */
+    height: 2.1in; /* Adjust height as needed */
     color: #fff; /* White text */
     padding: 20px;
 }
