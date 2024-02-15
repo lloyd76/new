@@ -1815,6 +1815,11 @@ body {
 						}
 
 		}
+@media only screen and (max-width: 600px) {
+    /* Styles for screens narrower than 600px (typical phone screens) */
+    /* Adjust layout and sizing as needed */
+}
+
 
 /* Basic styling for header 1 */
 .header1 {
