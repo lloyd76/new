@@ -2472,6 +2472,11 @@ nav ul li a {
     margin-right: 20px; /* Add margin to separate the logo and text */
 }
 
+.footer-section3 div {
+    display: flex;
+    align-items: flex-start; /* Align items vertically */
+}
+
 .footer-section3 h1 {
     margin: 0;
     font-size: 20px;
