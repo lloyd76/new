@@ -2495,7 +2495,7 @@ nav ul li a {
 .footer-write-to-us form input,
 .footer-write-to-us form textarea {
     width: calc(100% - 20px);
-    padding: 5px;
+    padding: px;
     margin-bottom: 10px;
     border: none;
     border-bottom: 2px solid #ffd700; /* Gold color */
