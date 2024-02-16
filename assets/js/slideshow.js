@@ -28,9 +28,9 @@ var swiper = new Swiper('.swiper-container', {
         delay: 3000,
         disableOnInteraction: false,
     },
-    initialSlide: 0, // Start with the first image
     pagination: {
         el: '.swiper-pagination',
         clickable: true,
     },
+    initialSlide: 0 // Start directly with the first image
 });
