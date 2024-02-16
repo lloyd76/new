@@ -2452,10 +2452,10 @@ nav ul li a {
 }
 
 /* main Slide Show Container */
-//* Special Boxes Container */
+/* Special Boxes Container */
 .special-boxes-container {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(3in, 1fr)); /* Adjusted size */
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); /* Adjusted size */
     gap: 20px;
     padding: 20px;
     background-color: #fff; /* White background */
@@ -2464,8 +2464,8 @@ nav ul li a {
 
 /* Individual Special Box */
 .box.special {
-    width: 3in; /* Adjusted size */
-    height: 3in; /* Adjusted size */
+    width: 250px; /* Adjusted size */
+    height: 250px; /* Adjusted size */
     background-color: #f0f0f0; /* Light gray background */
     padding: 20px;
     border-radius: 5px;
