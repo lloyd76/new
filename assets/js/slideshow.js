@@ -1,6 +1,16 @@
 // Fetch images from the 'slides' folder
-const slidesFolder = 'slides/';
-const slides = ['image1.jpg', 'image2.jpg', 'image3.jpg']; // Add more images as needed
+const slidesFolder = 'slideshow/';
+const slides = [
+    'alexander-mils-TdVGcGkb6C8-unsplash.jpg',
+    'alexander-ant-O2nDPq3RE2w-unsplash.jpg',
+    'alex-quezada-erUNzsg9Pk4-unsplash.jpg',
+    'alex-preusser-IOqS2TRUoCg-unsplash.jpg',
+    'alex-avram--INfLX61M_k-unsplash.jpg',
+    'alessio-soggetti-C4HO6MzEWrU-unsplash.jpg',
+    'agustin-visconti-F83Yec8BEnk-unsplash.jpg',
+    'agnieszka-kowalczyk-Knq-PUPdXNA-unsplash.jpg',
+    '445CDD6F-DA32-4515-B974-654012065E66.jpg'
+]; // Add more images as needed
 
 // Dynamically create swiper slides for each image
 const swiperWrapper = document.querySelector('.swiper-wrapper');
