@@ -2308,6 +2308,8 @@ body {
 
 /* Default header styles */
 .header1 {
+    position: sticky;
+    top: 0;
     background: linear-gradient(to right, rgba(255, 215, 0, 0.9), rgba(255, 215, 0, 0.7)); /* Shiny gold gradient */
     height: 0.25in; /* Set header height to 0.25 inches */
     color: #fff;
@@ -2315,6 +2317,8 @@ body {
 }
 
 .header2 {
+    position: sticky;
+    top: 0;
     background-color: #333; /* Darker black color */
     height: 0.8in; /* Set header height to 0.8 inches */
     position: relative; /* Ensure positioning context for child elements */
@@ -2404,15 +2408,6 @@ nav ul li a {
     background-color: rgba(255, 255, 255, 0.1);
 }
 
-.header1, .header2 {
-    position: sticky;
-    top: 0;
-    background-color: #ffffff; /* Set your desired background color */
-    z-index: 1000; /* Ensure they're above other content */
-    width: 100%; /* Ensure they span the entire width */
-}
-
-/* Add more styling as needed */
 
 
 /* Media queries for headers */
