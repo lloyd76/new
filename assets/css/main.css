@@ -2495,7 +2495,7 @@ nav ul li a {
 .footer-write-to-us form input,
 .footer-write-to-us form textarea {
     width: calc(100% - 20px);
-    padding: 7.5px;
+    padding: 5px;
     margin-bottom: 10px;
     border: none;
     border-bottom: 2px solid #ffd700; /* Gold color */
@@ -2504,8 +2504,8 @@ nav ul li a {
 /* Button styling */
 .footer-write-to-us form button {
     width: calc(100% - 20px);
-    padding: 10px;
-    margin-bottom: 5px;
+    padding: 20px;
+    margin-bottom: 1px;
     border: none;
     border-radius: 5px;
     background-color: #ffd700; /* Gold color */
