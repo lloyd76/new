@@ -2469,6 +2469,9 @@ nav ul li a {
     border-radius: 5px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Light shadow */
     text-align: center;
+    display: flex;
+    flex-direction: column; /* Align children vertically */
+    justify-content: space-between; /* Distribute children vertically */
 }
 
 /* Special Box Image */
@@ -2486,17 +2489,18 @@ nav ul li a {
 
 /* Special Box Button */
 .box.special .actions.special .button.alt {
-    background-color: #ffd700; /* Gold button */
+    background-color: #cca300; /* Adjusted gold button color */
     color: #fff;
     padding: 10px 20px;
     border: none;
     border-radius: 5px;
     text-decoration: none;
     transition: background-color 0.3s;
+    margin-top: auto; /* Push the button to the bottom */
 }
 
 .box.special .actions.special .button.alt:hover {
-    background-color: #cca300; /* Darker gold on hover */
+    background-color: #b38e00; /* Darker gold on hover */
 }
 
 /* Footer 1 styles */
