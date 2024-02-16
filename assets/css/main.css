@@ -2488,6 +2488,11 @@ nav ul li a {
     font-size: 14px;
 }
 
+.footer-section3 div:nth-child(2) {
+    position: relative;
+    left: calc(40px + 110px); /* Adjust the distance from the logo */
+}
+
 /* Copyright text */
 .copy-right {
     text-align: center;
