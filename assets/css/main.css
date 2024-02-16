@@ -2314,6 +2314,7 @@ body {
     height: 0.25in; /* Set header height to 0.25 inches */
     color: #fff;
     font-family: Arial, sans-serif; /* Use a sans-serif font */
+    z-index: 1000; /* Ensure it's above other content */
 }
 
 .header2 {
@@ -2323,6 +2324,7 @@ body {
     height: 0.8in; /* Set header height to 0.8 inches */
     position: relative; /* Ensure positioning context for child elements */
     color: #fff; /* Set text color to white */
+    z-index: 1000; /* Ensure it's above other content */
 }
 
 /* Centered church name */
