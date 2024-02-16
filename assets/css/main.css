@@ -2439,13 +2439,19 @@ nav ul li a {
     }
 }
 
-/* Main Slide Show */
+/* Main Slide Show Container */
 #main {
     padding: 0;
-    height: 3in; /* Adjust as needed */
-    overflow: hidden; /* Ensure the slide show stays within the specified height */
 }
 
+.slide-show-container {
+    height: 3in;
+    width: 7in;
+    overflow: hidden;
+    background-color: #f0f0f0; /* Example background color */
+}
+
+/* Swiper Container Styles */
 .swiper-container {
     width: 100%;
     height: 100%;
