@@ -2452,10 +2452,10 @@ nav ul li a {
 }
 
 /* main Slide Show Container */
-/* Special Boxes Container */
+//* Special Boxes Container */
 .special-boxes-container {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* Adjust the minimum width as needed */
+    grid-template-columns: repeat(auto-fit, minmax(3in, 1fr)); /* Adjusted size */
     gap: 20px;
     padding: 20px;
     background-color: #fff; /* White background */
@@ -2464,6 +2464,8 @@ nav ul li a {
 
 /* Individual Special Box */
 .box.special {
+    width: 3in; /* Adjusted size */
+    height: 3in; /* Adjusted size */
     background-color: #f0f0f0; /* Light gray background */
     padding: 20px;
     border-radius: 5px;
