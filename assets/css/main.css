@@ -2440,15 +2440,12 @@ nav ul li a {
 }
 
 /* Main Slide Show Container */
-#main {
-    padding: 0;
-}
-
 .slide-show-container {
     height: 3in;
     width: 7in;
     overflow: hidden;
     background-color: #f0f0f0; /* Example background color */
+    margin: 0 auto; /* Center the container horizontally */
 }
 
 /* Swiper Container Styles */
@@ -2459,26 +2456,21 @@ nav ul li a {
 
 .swiper-slide {
     text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .swiper-slide img {
     max-width: 100%;
     max-height: 100%;
     display: block;
-    margin: 0 auto;
+    margin: auto; /* Center the image horizontally and vertically */
 }
 
 /* Adjust the timing of slide changes */
 .swiper-container .swiper-slide {
     transition-duration: 10s;
-}
-
-/* First section of the footer - Gold color */
-.footer-section1 {
-    background-color: rgba(255, 215, 0, 0.9); /* Shiny gold */
-    height: 0.09in;
-    color: #fff; /* White text */
-    padding: 5px;
 }
 
 /* Second section of the footer - Darker black color */
