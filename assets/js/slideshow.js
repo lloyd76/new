@@ -12,8 +12,11 @@ const slides = [
     '445CDD6F-DA32-4515-B974-654012065E66.jpg'
 ]; // Add more images as needed
 
-// Dynamically create swiper slides for each image
+// Clear existing slides from the swiper wrapper
 const swiperWrapper = document.querySelector('.swiper-wrapper');
+swiperWrapper.innerHTML = '';
+
+// Dynamically create swiper slides for each image
 slides.forEach(image => {
     const slide = document.createElement('div');
     slide.classList.add('swiper-slide');
