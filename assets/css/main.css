@@ -2481,7 +2481,7 @@ nav ul li a {
 /* Social Media links */
 .footer-social a {
     display: horizontal;
-    margin-bottom: 5px;
+    margin-bottom: 50px;
     color: #fff; /* White text */
     text-decoration: none;
 }
