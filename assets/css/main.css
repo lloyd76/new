@@ -2500,6 +2500,12 @@ nav ul li a {
 .swiper-container .swiper-slide {
     transition-duration: 10s;
 }
+/* Hide navigation elements within the slide container */
+.swiper-container .swiper-pagination,
+.swiper-container .swiper-button-prev,
+.swiper-container .swiper-button-next {
+    display: none;
+}
 
 /* Footer 1 styles */
 footer.footer-section1 {
