@@ -2404,6 +2404,17 @@ nav ul li a {
     background-color: rgba(255, 255, 255, 0.1);
 }
 
+.header1, .header2 {
+    position: sticky;
+    top: 0;
+    background-color: #ffffff; /* Set your desired background color */
+    z-index: 1000; /* Ensure they're above other content */
+    width: 100%; /* Ensure they span the entire width */
+}
+
+/* Add more styling as needed */
+
+
 /* Media queries for headers */
 
 /* For screens smaller than 768px (e.g., smartphones) */
