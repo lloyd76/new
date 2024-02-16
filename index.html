@@ -60,63 +60,60 @@
     </div>
 </section>
 
-    <!-- Main 2 -->
-<div class="special-boxes-container">
-    <section class="box special" id="facebook">
-        <!-- Facebook live streaming content -->
-        <span class="image featured"><img src="facebook_image.jpg" alt="Facebook"></span>
-        <h3>Facebook Live Streaming</h3>
-        <ul class="actions special">
-            <li><a href="#" class="button alt">Watch Now</a></li>
-        </ul>
-    </section>
+    <!-- main 2
     
-    <section class="box special" id="online-giving">
-        <!-- Online giving content -->
-        <span class="image featured"><img src="online_giving_image.jpg" alt="Online Giving"></span>
-        <h3>Online Giving</h3>
-        <ul class="actions special">
-            <li><a href="#" class="button alt">Give Online</a></li>
-        </ul>
-    </section>
-    
-    <section class="box special" id="prayer-request">
-        <!-- Prayer request content -->
-        <span class="image featured"><img src="prayer_request_image.jpg" alt="Prayer Request"></span>
-        <h3>Prayer Request</h3>
-        <ul class="actions special">
-            <li><a href="#" class="button alt">Submit Request</a></li>
-        </ul>
-    </section>
-    
-    <section class="box special" id="lets-connect">
-        <!-- Let's connect content -->
-        <span class="image featured"><img src="lets_connect_image.jpg" alt="Let's Connect"></span>
-        <h3>Let's Connect</h3>
-        <ul class="actions special">
-            <li><a href="#" class="button alt">Contact Us</a></li>
-        </ul>
-    </section>
-    
-    <section class="box special" id="volunteer-sign-up">
-        <!-- Volunteer signup content -->
-        <span class="image featured"><img src="volunteer_signup_image.jpg" alt="Volunteer Sign Up"></span>
-        <h3>Volunteer Sign Up</h3>
-        <ul class="actions special">
-            <li><a href="#" class="button alt">Join Now</a></li>
-        </ul>
+    /* Special Boxes Container */
+.special-boxes-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(3in, 1fr)); /* Adjusted size */
+    gap: 20px;
+    padding: 20px;
+    background-color: #fff; /* White background */
+    justify-items: center; /* Center the boxes horizontally */
+}
 
-    <section class="box special" id="declaration">
-    <!-- Declaration content -->
-    <span class="image featured"><img src="declaration_image.jpg" alt="Declaration"></span>
-    <h3>Declaration</h3>
-    <p>This is a declaration section. Click the button below to view the declaration document.</p>
-    <ul class="actions special">
-        <li><a href="path/to/your/declaration.pdf" class="button alt" target="_blank">View Declaration PDF</a></li>
-    </ul>
-</section>
-</div>
+/* Individual Special Box */
+.box.special {
+    width: 3in; /* Adjusted size */
+    height: 3in; /* Adjusted size */
+    background-color: #f0f0f0; /* Light gray background */
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Light shadow */
+    text-align: center;
+    display: flex;
+    flex-direction: column; /* Align children vertically */
+    justify-content: space-between; /* Distribute children vertically */
+}
 
+/* Special Box Image */
+.box.special .image.featured img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+/* Special Box Title */
+.box.special h3 {
+    margin-top: 20px;
+    font-size: 1.5em;
+}
+
+/* Special Box Button */
+.box.special .actions.special .button.alt {
+    background-color: #cca300; /* Adjusted gold button color */
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s;
+    margin-top: auto; /* Push the button to the bottom */
+}
+
+.box.special .actions.special .button.alt:hover {
+    background-color: #b38e00; /* Darker gold on hover */
+}
 
     <!-- Add more sections and content here -->
 
