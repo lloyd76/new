@@ -2470,46 +2470,50 @@ nav ul li a {
     display: none;
 }
 
-/* main 2
-/* Grid container */
-.grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* Adjust column width as needed */
-  grid-gap: 20px; /* Adjust the gap between grid items */
-  margin-top: 20px; /* Adjust margin as needed */
+/* Special Boxes Container */
+.special-boxes-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    padding: 20px;
+    background-color: #fff; /* White background */
 }
 
-/* Grid items */
-.grid-item {
-  background-color: #fff; /* Example background color */
-  border: 1px solid #ccc; /* Example border */
-  padding: 20px; /* Adjust padding as needed */
+/* Individual Special Box */
+.box.special {
+    background-color: #f0f0f0; /* Light gray background */
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Light shadow */
+    text-align: center;
 }
 
-/* Styling for individual grid items */
-#facebook {
-  background-image: url('facebook_background.jpg'); /* Example background image */
-  background-size: cover;
+/* Special Box Image */
+.box.special .image.featured img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
 }
 
-#online-giving {
-  background-image: url('online_giving_background.jpg'); /* Example background image */
-  background-size: cover;
+/* Special Box Title */
+.box.special h3 {
+    margin-top: 20px;
+    font-size: 1.5em;
 }
 
-#prayer-request {
-  background-image: url('prayer_request_background.jpg'); /* Example background image */
-  background-size: cover;
+/* Special Box Button */
+.box.special .actions.special .button.alt {
+    background-color: #ffd700; /* Gold button */
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s;
 }
 
-#lets-connect {
-  background-image: url('lets_connect_background.jpg'); /* Example background image */
-  background-size: cover;
-}
-
-#volunteer-signup {
-  background-image: url('volunteer_signup_background.jpg'); /* Example background image */
-  background-size: cover;
+.box.special .actions.special .button.alt:hover {
+    background-color: #cca300; /* Darker gold on hover */
 }
 
 /* Footer 1 styles */
