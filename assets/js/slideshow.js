@@ -28,6 +28,10 @@ var swiper = new Swiper('.swiper-container', {
         delay: 3000,
         disableOnInteraction: false,
     },
+    navigation: {
+        nextEl: '',
+        prevEl: '',
+    },
     pagination: {
         el: '.swiper-pagination',
         clickable: true,
