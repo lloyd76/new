@@ -2451,10 +2451,73 @@ nav ul li a {
 /* Second section of the footer - Darker black color */
 .footer-section2 {
     background-color: #333; /* Darker black */
-    height: 2.1in; /* Adjust height as needed */
     color: #fff; /* White text */
-    padding: 20px;
+    padding: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    height: 2.8in;
 }
+
+/* Address, Social Media, and Write to Us sections */
+.footer-address,
+.footer-social,
+.footer-write-to-us {
+    width: 30%;
+}
+
+/* Headings for sections */
+.footer-address h3,
+.footer-social h3,
+.footer-write-to-us h3 {
+    margin-bottom: 10px;
+}
+
+/* Social Media section */
+.footer-social {
+    text-align: center;
+}
+
+/* Social Media links */
+.footer-social a {
+    display: horizontal;
+    margin-bottom: 5px;
+    color: #fff; /* White text */
+    text-decoration: none;
+}
+
+/* Hover effect for Social Media links */
+.footer-social a:hover {
+    color: #ffd700; /* Gold color on hover */
+}
+
+/* Form input and textarea styling */
+.footer-write-to-us form input,
+.footer-write-to-us form textarea {
+    width: calc(100% - 20px);
+    padding: 7.5px;
+    margin-bottom: 10px;
+    border: none;
+    border-bottom: 2px solid #ffd700; /* Gold color */
+}
+
+/* Button styling */
+.footer-write-to-us form button {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin-bottom: 5px;
+    border: none;
+    border-radius: 5px;
+    background-color: #ffd700; /* Gold color */
+    color: #333; /* Darker black */
+    cursor: pointer;
+}
+
+/* Hover effect for button */
+.footer-write-to-us form button:hover {
+    background-color: #f5c300; /* Slightly darker gold color on hover */
+}
+
 
 /* Third section of the footer - Pure black color */
 .footer-section3 {
