@@ -2508,19 +2508,19 @@ nav ul li a {
 
 /* Background images for each box */
 #facebook {
-    background-image: url('facebook_image.jpg');
+    background-image: url('images/streaming.jpg');
 }
 
 #online-giving {
-    background-image: url('online_giving_image.jpg');
+    background-image: url('images/online-giving.jpg');
 }
 
 #prayer-request {
-    background-image: url('prayer_request_image.jpg');
+    background-image: url('images/prayer-request.jpg');
 }
 
 #lets-connect {
-    background-image: url('lets_connect_image.jpg');
+    background-image: url('images/join-us.jpg');
 }
 
 #volunteer-sign-up {
@@ -2528,7 +2528,7 @@ nav ul li a {
 }
 
 #declaration {
-    background-image: url('declaration_image.jpg');
+    background-image: url('images/declaration.jpg');
 }
 
 /* Footer 1 styles */
