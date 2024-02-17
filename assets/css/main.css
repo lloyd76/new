@@ -2465,7 +2465,7 @@ nav ul li a {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); /* Adjusted size */
     gap: 20px;
-    padding: 20px;
+    padding: 20px calc((100% - 8in - 40px) / 2); /* Adjusted padding */
     background-color: #fff; /* White background */
     justify-items: center; /* Center the boxes horizontally */
 }
