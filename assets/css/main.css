@@ -2470,18 +2470,17 @@ nav ul li a {
     display: flex;
     flex-direction: column; /* Align children vertically */
     justify-content: space-between; /* Distribute children vertically */
-    background-size: cover; /* Make the background image cover the entire box */
-    background-position: center; /* Center the background image */
+    background-size: cover; /* Ensure background image covers the box */
 }
 
-/* Special Box Title */
+/* Special Box Titles */
 .box.special h3 {
     margin-top: 20px;
     font-size: 1.5em;
     color: #fff; /* Set text color to white */
 }
 
-/* Special Box Button */
+/* Special Box Buttons */
 .box.special .actions.special .button.alt {
     background-color: #cca300; /* Adjusted gold button color */
     color: #fff;
@@ -2497,28 +2496,29 @@ nav ul li a {
     background-color: #b38e00; /* Darker gold on hover */
 }
 
-/* Volunteer Box */
-#volunteer-sign-up {
-    background-image: url('assets/css/images/volunterr.jpg'); /* Path to the volunteer image */
+/* Background images for each box */
+#facebook {
+    background-image: url('facebook_image.jpg');
 }
-/* Online Giving Box */
+
 #online-giving {
-    background-image: url('path_to_your_online_giving_image.jpg');
+    background-image: url('online_giving_image.jpg');
 }
 
-/* Prayer Request Box */
 #prayer-request {
-    background-image: url('path_to_your_prayer_request_image.jpg');
+    background-image: url('prayer_request_image.jpg');
 }
 
-/* Let's Connect Box */
 #lets-connect {
-    background-image: url('path_to_your_lets_connect_image.jpg');
+    background-image: url('lets_connect_image.jpg');
 }
 
-/* Declaration Box */
+#volunteer-sign-up {
+    background-image: url('assets/css/image/volunteer.jpg');
+}
+
 #declaration {
-    background-image: url('path_to_your_declaration_image.jpg');
+    background-image: url('declaration_image.jpg');
 }
 
 /* Footer 1 styles */
