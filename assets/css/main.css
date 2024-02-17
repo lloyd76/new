@@ -2461,6 +2461,15 @@ nav ul li a {
 
 /* main Slide Show Container */
 /* Individual Special Box */
+special-boxes-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(285px, 1fr)); /* Adjusted size */
+    gap: 50px;
+    padding: 100px calc((100% - 12in - 100px) / 2); /* Adjusted padding */
+    background-color: #fff; /* White background */
+    justify-items: center; /* Center the boxes horizontally */
+}
+
 .box.special {
     width: 369px; /* Adjusted size */
     height: 285px; /* Adjusted size */
