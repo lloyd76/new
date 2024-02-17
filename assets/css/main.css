@@ -2460,8 +2460,8 @@ nav ul li a {
 }
 
 /* main Slide Show Container */
-/* Individual Special Box */
-special-boxes-container {
+/* Special Boxes Container */
+.special-boxes-container {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(285px, 1fr)); /* Adjusted size */
     gap: 50px;
@@ -2470,6 +2470,7 @@ special-boxes-container {
     justify-items: center; /* Center the boxes horizontally */
 }
 
+/* Individual Special Box */
 .box.special {
     width: 369px; /* Adjusted size */
     height: 285px; /* Adjusted size */
@@ -2523,7 +2524,7 @@ special-boxes-container {
 }
 
 #volunteer-sign-up {
-    background-image: url('assets/css/image/volunteer.jpg');
+    background-image: url('assets/css/images/volunteer.jpg');
 }
 
 #declaration {
