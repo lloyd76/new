@@ -2460,16 +2460,6 @@ nav ul li a {
 }
 
 /* main Slide Show Container */
-/* Special Boxes Container */
-.special-boxes-container {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(285px, 1fr)); /* Adjusted size */
-    gap: 50px;
-    padding: 100px calc((100% - 12in - 100px) / 2); /* Adjusted padding */
-    background-color: #fff; /* White background */
-    justify-items: center; /* Center the boxes horizontally */
-}
-
 /* Individual Special Box */
 .box.special {
     width: 369px; /* Adjusted size */
@@ -2505,6 +2495,30 @@ nav ul li a {
 
 .box.special .actions.special .button.alt:hover {
     background-color: #b38e00; /* Darker gold on hover */
+}
+
+/* Volunteer Box */
+#volunteer-sign-up {
+    background-image: url('assets/css/images/volunterr.jpg'); /* Path to the volunteer image */
+}
+/* Online Giving Box */
+#online-giving {
+    background-image: url('path_to_your_online_giving_image.jpg');
+}
+
+/* Prayer Request Box */
+#prayer-request {
+    background-image: url('path_to_your_prayer_request_image.jpg');
+}
+
+/* Let's Connect Box */
+#lets-connect {
+    background-image: url('path_to_your_lets_connect_image.jpg');
+}
+
+/* Declaration Box */
+#declaration {
+    background-image: url('path_to_your_declaration_image.jpg');
 }
 
 /* Footer 1 styles */
