@@ -2465,7 +2465,7 @@ nav ul li a {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(285px, 1fr)); /* Adjusted size */
     gap: 50px;
-    padding: 20px calc((100% - 12in - 100px) / 2); /* Adjusted padding */
+    padding: 100px calc((100% - 12in - 100px) / 2); /* Adjusted padding */
     background-color: #fff; /* White background */
     justify-items: center; /* Center the boxes horizontally */
 }
@@ -2474,26 +2474,21 @@ nav ul li a {
 .box.special {
     width: 369px; /* Adjusted size */
     height: 285px; /* Adjusted size */
-    background-color: #f0f0f0; /* Light gray background */
     padding: 20px;
-    border-radius: 5px;
+    border-radius: 20px;
     text-align: center;
     display: flex;
     flex-direction: column; /* Align children vertically */
     justify-content: space-between; /* Distribute children vertically */
-}
-
-/* Special Box Image */
-.box.special .image.featured img {
-    max-width: 100%;
-    height: auto;
-    border-radius: 5px;
+    background-size: cover; /* Make the background image cover the entire box */
+    background-position: center; /* Center the background image */
 }
 
 /* Special Box Title */
 .box.special h3 {
     margin-top: 20px;
     font-size: 1.5em;
+    color: #fff; /* Set text color to white */
 }
 
 /* Special Box Button */
