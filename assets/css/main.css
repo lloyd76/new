@@ -2464,15 +2464,15 @@ nav ul li a {
 .special-boxes-container {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); /* Adjusted size */
-    gap: 20px;
-    padding: 20px calc((100% - 8in - 40px) / 2); /* Adjusted padding */
+    gap: 40px;
+    padding: 20px calc((100% - 10in - 40px) / 2); /* Adjusted padding */
     background-color: #fff; /* White background */
     justify-items: center; /* Center the boxes horizontally */
 }
 
 /* Individual Special Box */
 .box.special {
-    width: 250px; /* Adjusted size */
+    width: 285px; /* Adjusted size */
     height: 250px; /* Adjusted size */
     background-color: #f0f0f0; /* Light gray background */
     padding: 20px;
