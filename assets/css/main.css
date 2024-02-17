@@ -2463,21 +2463,20 @@ nav ul li a {
 /* Special Boxes Container */
 .special-boxes-container {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); /* Adjusted size */
-    gap: 40px;
-    padding: 20px calc((100% - 10in - 40px) / 2); /* Adjusted padding */
+    grid-template-columns: repeat(auto-fit, minmax(285px, 1fr)); /* Adjusted size */
+    gap: 50px;
+    padding: 20px calc((100% - 12in - 100px) / 2); /* Adjusted padding */
     background-color: #fff; /* White background */
     justify-items: center; /* Center the boxes horizontally */
 }
 
 /* Individual Special Box */
 .box.special {
-    width: 285px; /* Adjusted size */
-    height: 250px; /* Adjusted size */
+    width: 369px; /* Adjusted size */
+    height: 285px; /* Adjusted size */
     background-color: #f0f0f0; /* Light gray background */
     padding: 20px;
     border-radius: 5px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Light shadow */
     text-align: center;
     display: flex;
     flex-direction: column; /* Align children vertically */
