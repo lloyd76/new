@@ -2465,14 +2465,14 @@ nav ul li a {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(285px, 1fr)); /* Adjusted size */
     gap: 50px;
-    padding: 100px calc((100% - 12in - 100px) / 2); /* Adjusted padding */
+    padding: 100px calc((100% - 11in - 100px) / 2); /* Adjusted padding */
     background-color: #fff; /* White background */
     justify-items: center; /* Center the boxes horizontally */
 }
 
 /* Individual Special Box */
 .box.special {
-    width: 369px; /* Adjusted size */
+    width: 350px; /* Adjusted size */
     height: 285px; /* Adjusted size */
     padding: 20px;
     border-radius: 20px;
@@ -2652,3 +2652,80 @@ footer.footer-section1 {
     color: #fff; /* White text */
     margin-top: 20px;
 }
+
+/* Wide */
+
+	@media screen and (max-width: 1680px) {
+
+		/* Basic */
+
+			body, input, select, textarea {
+				font-size: 13pt;
+			}
+
+		/* Banner */
+
+			#banner {
+				padding: 10em 0 18em 0;
+			}
+		
+	@media screen and (max-width: 1280px) {
+
+		/* Basic */
+
+			body, input, select, textarea {
+				font-size: 11pt;
+			}
+
+		/* Header */
+
+			.dropotron.level-0 {
+				font-size: 1em;
+			}
+
+		/* header */
+
+			#header {
+				background-attachment: scroll;
+			}
+
+				#header h2 {
+					font-size: 3.5em;
+				}
+
+	}
+
+		/* Narrow */
+
+	@media screen and (max-width: 980px) {
+
+		/* Basic */
+
+			body, input, select, textarea {
+				font-size: 11pt;
+			}
+
+	}
+
+/* Narrower */
+
+	#navPanel, #navButton {
+		display: none;
+	}
+
+	@media screen and (max-width: 840px) {
+
+		/* Basic */
+
+			html, body {
+				overflow-x: hidden;
+			}
+
+			body, input, select, textarea {
+				font-size: 11pt;
+			}
+
+			h2 br, h3 br, h4 br, h5 br, h6 br {
+				display: none;
+			}
+
